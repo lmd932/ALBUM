@@ -1,0 +1,57 @@
+h2{
+    color: white;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 36px;
+    font-weight: bold; /* Arial Black est déjà en gras, mais ça ne fait pas de mal */
+    color: white;
+}
+
+
+body{
+    background-color: black;
+
+
+}
+
+
+h1 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 36px;
+    font-weight: bold; /* Arial Black est déjà en gras, mais ça ne fait pas de mal */
+    color: white;
+}
+
+
+ol {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 16px;
+    font-style: normal; /* Par défaut, la police est normale */
+    color: white;
+}
+
+
+ h3 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 25px;
+    font-weight: bold; /* Arial Black est déjà en gras, mais ça ne fait pas de mal */
+    color: white;
+}
+
+
+a{
+    color: white;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.round-image {
+    width: 200px;      /* Ajustez la taille selon vos besoins */
+    height: 200px;     /* Gardez une hauteur égale pour un cercle parfait */
+    border-radius: 50%; /* Pour rendre l'image ronde */
+    object-fit: cover;  /* Maintenir le ratio de l'image */
+
+}
+
+
