@@ -1,57 +1,97 @@
-h2{
-    color: white;
-    font-family: 'Arial Black', sans-serif;
-    font-size: 36px;
-    font-weight: bold; /* Arial Black est déjà en gras, mais ça ne fait pas de mal */
-    color: white;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
+
+header {
+  display: flex;
+  background-image: url(https://rllngr.github.io/La-Toile-Jukebox-Code-Makers/assets/header.svg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+  flex-wrap: wrap;
+  align-content: flex-end;
 }
 
-
-body{
-    background-color: black;
-
-
+nav {
+  font-family: "Poppins", sans-serif;
+  background: white;
+  padding-bottom: 10px;
 }
 
-
-h1 {
-    font-family: 'Arial Black', sans-serif;
-    font-size: 36px;
-    font-weight: bold; /* Arial Black est déjà en gras, mais ça ne fait pas de mal */
-    color: white;
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
 }
 
-
-ol {
-    font-family: 'Arial Black', sans-serif;
-    font-size: 16px;
-    font-style: normal; /* Par défaut, la police est normale */
-    color: white;
+nav li a {
+  font-weight: bold;
+  color: #4b4b4b;
 }
 
-
- h3 {
-    font-family: 'Arial Black', sans-serif;
-    font-size: 25px;
-    font-weight: bold; /* Arial Black est déjà en gras, mais ça ne fait pas de mal */
-    color: white;
+nav a {
+  text-decoration: none;
+  color: #4b4b4b;
+  transition: color 0.3s ease-in-out;
 }
 
+nav a:hover {
+  color: #e2001a;
+}
+
+footer {
+  background: #e2001a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  padding: 10px;
+}
+
+body {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background: white;
+}
+
+section {
+   display: flex;
+   justify-content: center;
+   gap: 1em;
+}
+
+div {
+   display: block;
+   unicode-bidi: isolate;
+}
+
+#cover img {
+   width: 70%;
+}
+
+img {
+   width: 15em;
+   height: fit-content;
+   border-radius: 5%;
+}
+
+p {
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   unicode-bidi: isolate;
+}
+
+ol li{
+  list-style: none;
+}
 
 a{
-    color: white;
-    font-family: 'Arial Black', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+  text-decoration: none;
+  color: black;
 }
-
-
-.round-image {
-    width: 200px;      /* Ajustez la taille selon vos besoins */
-    height: 200px;     /* Gardez une hauteur égale pour un cercle parfait */
-    border-radius: 50%; /* Pour rendre l'image ronde */
-    object-fit: cover;  /* Maintenir le ratio de l'image */
-
-}
-
-
